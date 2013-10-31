@@ -208,3 +208,5 @@ be exercised via nosetests (requires Python package nose)::
 
 Once installed, simply ``import gambit`` in your Python shell or
 script to get started.
+
+For Windows users with the MinGW compiler, please note that in older versions of Python there is a known bug in distutils that leads to compilation failure. This issue has now been fixed since Python 2.7.6 release candidate 1.
